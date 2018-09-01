@@ -77,3 +77,9 @@ In order to run tests, perform the following:
 `rake db:test:prepare`
 
 `rspec`
+
+### References
+
+Database:
+[Google Drive CSV Spreadsheet](https://docs.google.com/spreadsheets/d/1B1okEW0fUA5g14dhsm5iCaUiDanxEIOD5RMF5rORixI/edit#gid=0)
+[CSV Author](https://www.reddit.com/user/henrebotha)

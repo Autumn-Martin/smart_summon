@@ -1,0 +1,139 @@
+Champion,Primary,Secondary,Top,Jng,Mid,ADC,Sup,Early,Mid,Late,Win condition,Damage,Output,Melee,Ranged,Speed,Resource,Kit,Movement,Closers,Disables,Threats,Notes
+Aatrox,Fighter,Tank,•,•,,,,,,,,physical,sustain,150,,345,health,,Dash,,"Slow, AoE knockup",Resurrect,Huge sustain
+Ahri,Mage,Assassin,,,•,,,,,,,magic,burst,,550,330,mana,,Dash,,Charm,High mobility,Extremely susceptible to hard CC. Focus her down quickly.
+Akali,Assassin,N/A,•,•,•,,,,,,,mixed,burst,125,,350,energy,,Stealth,Dash,Slow,"Pseudo-reset, stealth",Pink wards and upgraded red trinkets really impact her survivability.
+Alistar,Tank,N/A,•,,,,•,,,,,mixed,sustain,125,,330,mana,,,,"AoE knockup -> stun, knockback -> root",Cleanse,Can knock you into tower range and keep you there
+Amumu,Tank,Mage,•,•,,,,,,,,magic,sustain,125,,335,mana,,,Dash,"Stun, AoE entangle",,Counter jungle him to shut him down (ie remove his friends)
+Anivia,Mage,Support,,,•,,•,,•,,,magic,,,600,325,mana,,,,"AoE slow, AoE stun",Wall,Time her passive's cooldown
+Annie,Mage,N/A,•,,•,,•,,,,,magic,,,575,335,mana,,,,Stun,TIBBAHS,"Watch out for ""milky way"" stun buff - flash engage"
+Ashe,Marksman,Support,,,,•,•,,,,,physical,sustain,,600,325,mana,,,,"Stun, slow",Global stun skillshot,Crits don't deal more damage; DPS much more constant
+Aurelion Sol,Mage,N/A,,,•,,,,•,,Teamfight,magic,sustain,,550,325,mana,,Sprint,,"AoE stun, AoE knockback",Huge roams/ganks,
+Azir,Mage,Marksman,•,,•,,,,,,,magic,sustain,400,525,335,mana,,Dash,,Knockup,Wall,Don't fight him in tight quarters.
+Bard,Support,N/A,,,,,•,,,,,magic,,,,,mana,,Sprint,,"Stun, AoE stasis",Tunnel,Has to roam to be effective.
+Blitzcrank,Tank,Fighter,,,•,,•,,,,,mixed,,125,,325,mana,,Sprint,Pull,"Pull, knockup, silence",,Juke the pull and he's useless for a long time
+Brand,Mage,N/A,,,•,,•,,,,,magic,,,550,340,mana,,,,Stun,"DoT, plague",Needs to combo spells to pull off a stun
+Braum,Support,Tank,,,,,•,,,,,mixed,,125,,335,mana,,,Dash,"Stun, slow, AoE knockup",Projectile block,Poke him down.
+Caitlyn,Marksman,N/A,,,,•,,,,,,physical,,,650,325,mana,,Dash,,"Root, slow",Extreme range,Body-block her ultimate for low-health allies
+Camille,,,,,,,,,,,,,,,,,,,,,,,
+Cassiopeia,Mage,N/A,,,•,,,,,,,magic,,,550,335,mana,,,,AoE stun,Poison,
+Cho'Gath,Tank,Mage,•,•,,,,,,,,magic,,125,,350,mana,,,,"Knockup, AoE silence",True damage,Avoid melee range when low on health
+Corki,Marksman,N/A,,,,•,,,,,,mixed,,,550,325,mana,,Dash,,,Extreme poke,
+Darius,Fighter,Tank,•,,,,,,,,,mixed,,125,,340,mana,,,,"Pull, MS slow, AS slow","DoT, resets",Bait out and dodge Q to win trades. Get ganks
+Diana,Fighter,Mage,•,•,•,,,,,,,magic,,150,,345,mana,,,Dash,AoE pull,Good chaser,Avoid the Q by dodging forwards & CCW
+Dr. Mundo,Fighter,Tank,•,,,,,,,,,mixed,,125,,345,health,,Sprint,,Slow,,
+Draven,Marksman,N/A,,,,•,,,,•,,physical,,,550,330,mana,,Sprint,,AoE knockback,Global skillshot,
+Ekko,Assassin,Fighter,•,•,•,,,,,,,magic,burst,125,,345,mana,,"Dash, Sprint",Blink,"AoE slow, AoE stun","""Undo button""",His ult does insane damage (>130% AP) - stay away from his ghost
+Elise,Mage,Fighter,,•,,,,,,,,mixed,,125,550,335,mana,,Blink (ish),,Stun,Execute,
+Evelynn,Assassin,Mage,,•,,,,,,,,mixed,,125,,340,mana,,Sprint,,AoE slow,Stealth,Ward her jungle camps to keep tabs on her position
+Ezreal,Marksman,Mage,,,•,•,,,,,Siege,mixed,,,550,325,mana,,Blink,,,Global skillshot,
+Fiddlesticks,Mage,Support,,•,•,,•,,,,,magic,,,480,335,mana,,Blink,,"Silence, fear",Surprise party,Keep bushes warded
+Fiora,Fighter,Assassin,•,,,,,,,,,physical,,125,,350,mana,,,,,,Avoid her when she does Burst of Speed!
+Fizz,Assassin,Fighter,•,•,•,,,,,,,mixed,burst,175,,335,mana,,Dash,,Slow,Execute,Can become untargetable.
+Galio,Tank,Mage,,,•,,•,,,,,magic,,125,,335,mana,,,,"AoE slow, AoE taunt",,Gains AP from building MR.
+Gangplank,Fighter,Support,•,,,,•,,,,,physical,,125,,345,mana,,,,AoE slow,,
+Garen,Fighter,Tank,•,,,,,,,,,physical,,125,,345,none,,Sprint,,Silence,Execute,
+Gnar,Fighter,Marksman,•,,,,,,,,,mixed,,150,400,335,rage,,Dash,,"Slow, AoE knockback -> stun",,Watch rage meter to predict transformation
+Gragas,Fighter,Mage,,•,•,,•,,,,,mixed,,125,,340,mana,,,Dash,"AoE knockback -> stun, AoE slow",Split team with ult,
+Graves,Marksman,N/A,,,,•,,,,,,physical,burst,,525,330,mana,,Dash,,Slow,Can deny vision,Surprisingly tanky.
+Hecarim,Fighter,Tank,,•,,,,,,,,physical,sustain,175,,345,mana,,"Dash, Sprint",,"Knockback, AoE fear",Mobility,
+Heimerdinger,Mage,Support,,,•,,,,,,,magic,,,550,340,mana,,,,AoE slow/stun,,"Kill his turrets quickly. Don't dive, especially if he has Zhonya's"
+Illaoi,Fighter,Tank,•,,,,,,,,,physical,,125,,340,mana,,,Dash,Slow,,Don't fight near tentacles. Grouping against her increases her damage!
+Irelia,Fighter,Assassin,•,,,,,,,,,mixed,,125,,345,mana,,,Dash,"Stun, slow",,
+Ivern,,,,,,,,,,,,,,,,,,,,,,,
+Janna,Support,Mage,,,,,•,,,,,magic,,,475,335,mana,,,,"AoE knockup, slow, AoE knockback",,
+Jarvan IV,Tank,Fighter,,•,,,,,,,,physical,,175,,340,mana,,Dash,,Knockup,,Ult is a hard trap but can be used to focus him
+Jax,Fighter,Assassin,•,,,,,,,,,mixed,sustain,125,,350,mana,,,Dash,Stun,Dodge AAs,
+Jayce,Fighter,Marksman,•,,•,,,,•,,,physical,,125,500,335,mana,,,,"MS slow, knockback",Extreme poke,
+Jhin,Marksman,Assassin,,,,•,,,,,,physical,,,550,330,mana,,Sprint,,"Root, slow, AoE slow",Long-range damage,
+Jinx,Marksman,N/A,,,,•,,,,•,Teamfight,physical,,,525,325,mana,,,,"Snare, slow",Global skillshot,Vulnerable when her snare is on cooldown
+Kalista,Marksman,N/A,,,,•,,,,,,physical,sustain,,550,325,mana,,,Dash,AoE knockup,Kite for days,Ult can extract one predetermined ally from certain death
+Karma,Mage,Support,•,,•,,•,•,,,,magic,burst,,525,335,mana,,Sprint,,"Snare, slow",,AoE sprint
+Karthus,Mage,N/A,,,•,,,,,,,magic,,,450,335,mana,,,,AoE slow,Death throes,Has a global damage spell - never stay at low health
+Kassadin,Assassin,Mage,•,,•,,,,,,,magic,,150,,340,mana,,Blink,,"Slow, interrupt (brief silence)",,Spammable blink
+Katarina,Assassin,Mage,•,,•,,,,,,,magic,burst,125,,345,none,,Blink,,,Snowball,Save CC for when she ults
+Kayle,Fighter,Support,•,•,•,,•,,,,,mixed,,125,525,335,mana,,Sprint,,Slow,,Can make herself or an ally invulnerable
+Kennen,Mage,Marksman,•,,•,•,•,,,,,mixed,,,550,335,energy,,Sprint,,Stun,,Has a lot of different ways to proc his stun marks
+Kha'Zix,Assassin,N/A,,•,,,,,,,,physical,,125,,350,mana,,,Dash,Slow,,
+Kindred,Marksman,N/A,,•,,,,,,,,physical,sustain,,500,325,mana,,Dash,,Slow,AoE survival (friend & foe),"Deny stacks by playing safe when marked, and warding/clearing your jungle"
+Kled,,,,,,,,,,,,,,,,,,,,,,,
+Kog'Maw,Marksman,Mage,,,,•,,,,•,,mixed,,,500,325,mana,,,,Slow,Self-destruct,Deals high mixed damage
+LeBlanc,Assassin,Mage,,,•,,,,,,Pick,magic,burst,,525,335,mana,,"Dash, decoy",,"Slow, root",Stealth,
+Lee Sin,Fighter,Assassin,,•,,,,,,,,physical,,125,,350,energy,,,Dash,Knockback -> knockup,"Execute, mobility",
+Leona,Tank,Support,,,,,•,,,,,mixed,,125,,335,mana,,,Dash,"Stun, AoE slow",Chain CC,
+Lissandra,Mage,N/A,•,,•,,,,,,,magic,,,550,325,mana,,Blink,,"Stun, AoE slow",,
+Lucian,Marksman,N/A,,,,•,,,,,,physical,sustain,,500,335,mana,,Dash,,,,
+Lulu,Support,Mage,•,,•,,•,,,,,magic,,,550,325,mana,,,,"Slow, disable, knockup",Vision,Crazy versatile
+Lux,Mage,Support,,,•,,•,,,,,magic,burst,,550,330,mana,,,,"Snare, AoE slow",Skillshot,Don't get snared! Avoid letting her proc her passive.
+Malphite,Tank,Fighter,•,,,,,,,•,,mixed,,125,,335,mana,,Dash,,"Slow, AoE knockup",AS debuff,Has a strong shield that resists poke.
+Malzahar,Mage,Assassin,,,•,,,,,,,magic,,,550,340,mana,,,,"AoE silence, suppression",,
+Maokai,Tank,Mage,•,•,,,,,,,,magic,,125,,335,mana,,,,"Root, slow, AoE knockup",,
+Master Yi,Assassin,Fighter,•,•,,,,,,,,physical,,125,,355,mana,,Sprint,,,Resets,Can ignore slows during his ult. Can juke abilities using Alpha Strike.
+Miss Fortune,Marksman,N/A,,,,•,,,,,,physical,,,550,325,mana,,,,AoE slow,,
+Mordekaiser,Fighter,Mage,•,,,,,,,,,magic,,125,,340,health,,,,,,
+Morgana,Mage,Support,,,•,,•,,,,,magic,,,450,335,mana,,,,"Root, AoE stun",,
+Nami,Support,Mage,,,,,•,,,,,magic,,,550,340,mana,,,,AoE knockup -> slow,Chain CC,Juke the bubble!
+Nasus,Fighter,Tank,•,•,,,,,,•,Splitpush,mixed,sustain,125,,350,mana,,,,Slow,Snowball,Prevent CS! Q damage scales infinitely.
+Nautilus,Tank,Fighter,,•,,,•,,,,,mixed,,175,,325,mana,,,Pull,"Root, pull, stun, AoE slow, AoE knockup + slow",All of the CC,
+Nidalee,Assassin,Fighter,•,•,•,,•,,,,,mixed,burst,125,525,335,mana,,Dash,,,"Skillshot, execute",Very susceptible to hard CC. Squishy.
+Nocturne,Assassin,Fighter,,•,,,,,,,,physical,,125,,345,mana,,Sprint,Dash,Fear,Can deny vision,
+Nunu,Support,Fighter,,•,,,•,,,,,magic,,125,,350,mana,,,,AoE slow,,Blood Boil makes his ADC even more powerful.
+Olaf,Fighter,Tank,•,•,,,,,,,,physical,,125,,350,mana,,,,Slow,"Survival, true damage",Don't attack unless you can kill
+Orianna,Mage,Support,,,•,,•,,,,Teamfight,magic,,,525,325,mana,,,,AoE pull,,Watch her team's tanks - she uses them as ult delivery system
+Ornn,,,,,,,,,,,,,,,,,,,,,,,
+Pantheon,Fighter,Assassin,•,•,,,,,,,,physical,,150,,355,mana,,Teleport,Dash,"Stun, AoE slow",Execute,Shields himself
+Poppy,Fighter,Assassin,•,,,,,,,,,mixed,,125,,345,mana,,,Dash,Stun,Invulnerability,Stay away from walls
+Quinn,Marksman,Fighter,•,,,•,,,,,,physical,,125,525,335,mana,,Dash,,Blind,Roam,
+Rakan,,,,,,,,,,,,,,,,,,,,,,,
+Rammus,Tank,Fighter,•,•,,,,,,,,mixed,,125,,335,mana,,Sprint,,"Knockup, taunt",Mobility,
+Rek'Sai,Fighter,N/A,•,•,,,,,,,,physical,sustain,,,335,fury,,Dash,,AoE knockup,,Sonar vision!
+Renekton,Fighter,Tank,•,,,,,,,,,physical,,125,,345,fury,,Dash,,Stun,,Play safe when his fury is full.
+Rengar,Assassin,Fighter,•,•,,,,,,,,physical,burst,125,,345,ferocity,,Sprint,Dash,Slow/root,Stealth,Group with team when the exclamation mark appears.
+Riven,Fighter,Assassin,•,•,,,,,,,,physical,,125,,345,none,,Dash,,"Knockup, AoE stun",AoE execute!,Lock her down with CC to kill her.
+Rumble,Fighter,Mage,•,,,,,,,,,magic,sustain,125,,345,heat,,Sprint,,AoE slow,,Ult can slow & damage entire team
+Ryze,Mage,Fighter,•,,•,,,,,,,magic,,,550,340,mana,,,,Root,,Gains damage from building mana.
+Sejuani,Tank,Fighter,,•,,,,,,,,mixed,sustain,125,,340,mana,,Dash,,AoE stun,,
+Shaco,Assassin,N/A,,•,,,,,,,,mixed,,125,,350,mana,,"Decoy, blink",,"AoE fear, slow",Stealth,
+Shen,Tank,Fighter,•,,,,,,,,,mixed,sustain,125,,335,energy,,Dash,,Taunt,,
+Shyvana,Fighter,Tank,•,•,,,,,,,,physical,,125,,350,fury,,"Dash, sprint",,AoE knockback,,
+Singed,Tank,Fighter,•,,,,,,,,,magic,sustain,125,,345,mana,,Sprint,,"Knockup (flip), slow",DoT,Don't chase. Seriously.
+Sion,Fighter,Tank,•,,,,,•,,,,physical,,125,,345,mana,,,Sprint,"AoE slow, AoE knockup, AoE stun",Death throes,Health can scale infinitely
+Sivir,Marksman,N/A,,,,•,,,,,,physical,,,500,335,mana,,,Sprint,,AoE sprint,Bait her shield out before you poke - its duration is short.
+Skarner,Fighter,Tank,,•,,,,,,,,mixed,sustain,125,,345,mana,,Sprint,,"Stun, AoE slow, suppression + forced movement",Sticking power,Watch out for his forced movement - exercise safe positioning.
+Sona,Support,Mage,,,,,•,,,,,magic,,,550,325,mana,,,Sprint,"AoE stun, slow",,
+Soraka,Support,Mage,,,,,•,,,,,magic,,,550,325,mana,,,,"AoE silence, AoE root, slow",Global heal,"Focus her down first, else she will make tanks out of ADCs."
+Swain,Mage,Fighter,,,•,,,,,,,magic,,,500,335,mana,,,,Root,High sustain,
+Syndra,Mage,Support,,,•,,,,,,,magic,,,550,330,mana,,,,AoE knockback -> stun,,
+Tahm Kench,Support,Tank,•,•,,,•,,,,,magic,sustain,200,,335,mana,,"Sprint, teleport",Sprint,"Slow, stun, forced movement",Is a personnel carrier,"Can turn a 1v1 into a 1v3, so use deep wards."
+Taliyah,Mage,Support,,,•,,,,,,,magic,,,525,325,mana,,Sprint,,"Slow, AoE knockup/knockback",Huge roams/ganks,Is weaker when fighting in a restricted area
+Talon,Assassin,Fighter,,,•,,,,,,,physical,burst,125,,350,mana,,Sprint,Blink,Slow,"Burst, stealth",
+Taric,Support,Fighter,,,,,•,,,,,mixed,,125,,340,mana,,,,Stun,,
+Teemo,Marksman,Assassin,•,,,,,,•,,,mixed,sustain,,500,330,mana,,Sprint,,"Blind, AoE slow","Poison, stealth, traps","If low on health, don't move before recalling if possible."
+Thresh,Support,Fighter,,,,,•,,,,,mixed,,,450,335,mana,,,Pull,"Pull, AoE pull/knockup, AoE slow",,Juke the hooks
+Tristana,Marksman,Assassin,,,,•,,,•,,,mixed,,,550,325,mana,,Dash,,AoE knockback,,Best siege & insane early burst. Respect the E.
+Trundle,Fighter,Tank,,•,,,,,,,,physical,,125,,350,mana,,,,Slow,,
+Tryndamere,Fighter,Assassin,•,,,,,,,,,physical,sustain,125,,345,fury,,Dash,,Slow,Survival,Don't attack unless you can kill. Ignite is good!
+Twisted Fate,Mage,N/A,,,•,,,,,,,mixed,,,525,330,mana,,Teleport,,"Stun, AoE slow",Teleport,
+Twitch,Marksman,Assassin,,,,•,,,,•,,physical,,,550,330,mana,,,,Slow,"Poison, stealth",
+Udyr,Fighter,Tank,,•,,,,,,,,physical,,125,,350,mana,,Sprint,,Stun,,
+Urgot,Marksman,Tank,•,,,•,,,,,,physical,sustain,,425,335,mana,,,,Disable,Position reverse,
+Varus,Marksman,Mage,,,•,•,,,•,,,mixed,,,575,330,mana,,,,"AoE slow, AoE root",Extreme range,"Diverse builds - can go AD caster, marksman, AP on-hit"
+Vayne,Marksman,Assassin,•,,,•,,,,•,,physical,,,550,330,mana,,Dash,Sprint,Knockback -> stun,"True damage, stealth",Extreme anti-tank damage (% max HP true damage).
+Veigar,Mage,N/A,,,•,,,,,•,,magic,burst,,525,340,mana,,,,AoE stun 'trap',Snowball,AP scales infinitely with Q CS.
+Vel'Koz,Mage,N/A,,,•,,•,,,,,magic,,,525,340,mana,,,,"AoE slow, AoE knockup (+ minor knockback)",True damage,Surprisingly high damage output even with just Liandry's
+Vi,Fighter,Assassin,•,•,,,,,,,,physical,,125,,350,mana,,Dash,Dash,"Knockback, knockup",Armour shred,
+Viktor,Mage,N/A,,,•,,,,,,,magic,,,525,335,mana,,,,AoE slow -> stun,,
+Vladimir,Mage,Tank,•,,•,,,,,,,magic,sustain,,450,335,health,,,,AoE slow,Untargetable,Beware the heal-baits!
+Volibear,Fighter,Tank,,•,,,,,,,,physical,,125,,345,mana,,Sprint,,"AoE slow, knockup (flip)",,Gains damage from building health. Has a strong healing passive.
+Warwick,Fighter,Tank,,•,,,,,,,,physical,,125,,345,mana,,,,Suppress,,Has insane lifesteal
+Wukong,Fighter,Tank,•,•,,,,,,,,physical,,175,,345,mana,,Decoy,,Knockup,Stealth,
+Xayah,Marksman,,,,,•,,,,,,physical,,,,,mana,,,,Root,,
+Xerath,Mage,Assassin,,,•,,,,,,Siege,magic,,,525,340,mana,,,,"Stun, slow",Insane range,
+Xin Zhao,Fighter,Assassin,,•,,,,,,,,physical,,175,,345,mana,,,Dash,"Knockup, slow, AoE knockback",,
+Yasuo,Fighter,Assassin,,,•,,,,,•,,physical,,175,,345,none,,Dash,,Knockup,Wind wall,Watch out for tornado -> ult
+Yorick,Fighter,Mage,•,,,,,,,,,mixed,,125,,345,mana,,,,Slow,,
+Zac,Tank,Fighter,,•,,,,,,,,magic,,125,,335,health,,Dash,,"Slow, knockup",Resurrection,Resurrection blobs can be smited and teleported to
+Zed,Assassin,Fighter,,,•,,,,,,,physical,,125,,345,energy,,Blink,,Slow,Execute,Living shadow has a long CD - bait it out before ganking.
+Ziggs,Mage,N/A,,,•,,,,,,Siege,magic,,,550,325,mana,,Dash,,"Knockup, slow",Global ult,
+Zilean,Support,Mage,,,•,,•,,,,,magic,,,600,335,mana,,Sprint,,Slow,Resurrection,Bombs are his only lane presence - punish him for using them.
+Zoe,,,,,,,,,,,,,,,,,,,,,,,
+Zyra,Mage,Support,,,•,,•,,,,Teamfight,magic,,,575,325,mana,,,,"Root, slow, AoE knockup",Death throes,
