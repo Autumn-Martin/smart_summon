@@ -1,7 +1,7 @@
 # SmartSummon
 
-[![Coverage Status]()
-[![CircleCI]()
+![Coverage Status](coverage/coverage.svg)
+[![CircleCI](https://circleci.com/gh/Autumn-Martin/smart_summon.svg?style=svg)](https://circleci.com/gh/Autumn-Martin/smart_summon)
 [![Waffle.io - Columns and their card count](https://badge.waffle.io/Autumn-Martin/smart_summon.svg?columns=all)](https://waffle.io/Autumn-Martin/smart_summon)
 
 ### About
