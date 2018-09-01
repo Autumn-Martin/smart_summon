@@ -2,7 +2,7 @@
 
 [![Coverage Status]()
 [![CircleCI]()
-[![Waffle.io]()
+[![Waffle.io - Columns and their card count](https://badge.waffle.io/Autumn-Martin/smart_summon.svg?columns=all)](https://waffle.io/Autumn-Martin/smart_summon)
 
 ### About
 
@@ -21,7 +21,7 @@ As a user, when I visit '/roles',  and I click on a role, I am taken to a show 
 user story: 
 As a user, when I visit '/champions/show' I see the best items, runes, skill order, and notes for a champion. 
 
-relationships: 
+relationships:
 many champions to many roles
 one champion to many notes
 
