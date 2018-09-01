@@ -1,13 +1,15 @@
 require 'csv'
 require './app/models/champion'
-# require './app/models/role'
 
 class Seed
 
   OPTIONS = {headers: true, header_converters: :symbol}
+  ROLES = ["top", "jungle", "mid", "adc", "support"]
 
   def self.start
     seed_champions
+    seed_roles
+    add_roles_to_champions
   end
 
   def self.seed_champions
@@ -21,6 +23,25 @@ class Seed
       puts "Created #{champion.name}"
     end
     puts "Created all champions!"
+  end
+
+  def self.seed_roles
+    ROLES.each do |title|
+      role = Role.create!(title: title)
+      puts "#{role.title} created!"
+    end
+  end
+
+  def self.add_roles_to_champions
+    CSV.foreach('./db/csv/champions.csv', OPTIONS)  do |row|
+      champion = Champion.find_by(name: row[:champion].downcase)
+      ROLES.each do |role|
+        if row[role.to_sym] != nil
+          champion.roles << Role.find_by(title: role)
+        end
+      end
+    end
+    puts "Added roles to all champions!"
   end
 
 end
