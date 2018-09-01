@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby "2.5.1"
 
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
@@ -39,6 +40,7 @@ group :development, :test do
   gem 'capybara'
   gem 'rspec-rails'
   gem 'launchy'
+  gem 'shoulda-matchers', '~> 3.1'
 end
 
 group :development do
