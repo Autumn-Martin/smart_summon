@@ -13,7 +13,11 @@ feature 'User views champion show page' do
 
       expect(current_path).to eq(champion_path(champion))
       expect(page).to have_content(champion.name)
-
+      expect(page).to have_content(champion.damage)
+      expect(page).to have_content(champion.primary_class)
+      expect(page).to have_content(champion.secondary_class)
+      # expect(page).to have_content(champion.rune_path)
+      # expect(page).to have_content(champion.skill_order)
     end
   end
 end
