@@ -9,7 +9,7 @@ describe 'User views index page' do
       role_4 = create(:role, title: "adc")
       role_5 = create(:role, title: "support")
 
-      visit routes_path
+      visit roles_path
 
       expect(page).to have_content(role_1.title)
       expect(page).to have_content(role_2.title)
