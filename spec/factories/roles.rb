@@ -1,5 +1,5 @@
 FactoryBot.define do
   factory :role do
-    title "MyString"
+    title "top"
   end
 end
