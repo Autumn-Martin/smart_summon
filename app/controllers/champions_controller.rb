@@ -1,7 +1,11 @@
 class ChampionsController < ApplicationController
   def index
-    role = Role.find(params[:role_id])
-    @champions = role.champions.all
+    if params[:role_id]
+      role = Role.find(params[:role_id])
+      @champions = role.champions.all
+    else
+      @champions = Champion.all
+    end
   end
 
   def show
