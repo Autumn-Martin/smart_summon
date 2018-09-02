@@ -1,9 +1,11 @@
-<% @roles.each do |role| %>
-<div class='card'>
-  <div class="card-body">
-    <h5 class="card-title">
-      <%= role.title %>
-    </h5>
-  </div>
+<div class="hero-image">
+
+  <ul class="nav flex-sm-column">
+    <% @roles.each do |role| %>
+      <li class="nav-item">
+        <%= link_to(role.title, role_champions_path(role), class: "nav-link active") %>
+      </li>
+    <% end %>
+  </ul>
+
 </div>
-<% end %>
