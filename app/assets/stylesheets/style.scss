@@ -19,4 +19,19 @@ body {
   .card {
     opacity: 0.7;
   }
+
+  .name-header {
+    background: image-url("heimerdinger.jpg") no-repeat center top/cover;
+    text-align: center;
+    margin: 5% 0%;
+    font-size: 16vh;
+    color: #D3FCFD;
+  }
+
+  #champion-attributes li {
+    margin: 2% 2%;
+    text-align: center;
+    color: #6544F6;
+  }
+
 }
