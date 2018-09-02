@@ -1,14 +1,22 @@
 body {
+
   font-family: "Monoton";
   margin: 0;
   background-color: #141329;
+
   .hero-image {
     background: image-url("heimerdinger.jpg") no-repeat center top/cover;
-
     width: auto;
     min-height: 90vh;
     height: 100%;
     position: relative;
+  }
 
+  .row {
+    margin: 5% 2%;
+  }
+
+  .card {
+    opacity: 0.7;
   }
 }

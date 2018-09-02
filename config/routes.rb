@@ -3,5 +3,5 @@ Rails.application.routes.draw do
   resources :roles, only: [:index] do
     resources :champions
   end
-  resources :champions, only: [:index]
+  resources :champions, only: [:index, :show]
 end
