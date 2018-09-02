@@ -8,7 +8,8 @@ feature 'User views champion show page' do
       role.champions << champion
 
       visit role_champions_path(role)
-      click_on champion.name
+      within ("#champion-#{champion.id}")
+        click_on "More Details"
 
       expect(current_path).to eq(champion_path(champion))
       expect(page).to have_content(champion.name)
