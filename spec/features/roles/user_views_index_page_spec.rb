@@ -1,8 +1,8 @@
 require 'rails_helper'
 
-describe 'User views index page' do
-  describe 'user visits /roles' do
-    it 'displays all roles' do
+feature 'User views index page' do
+  context'user visits /roles' do
+    scenario 'displays all roles' do
       role_1 = create(:role, title: "top")
       role_2 = create(:role, title: "jungle")
       role_3 = create(:role, title: "mid")

@@ -1,15 +1,23 @@
 require 'csv'
 require './app/models/champion'
 
+
+
 class Seed
 
   OPTIONS = {headers: true, header_converters: :symbol}
   ROLES = ["top", "jungle", "mid", "adc", "support"]
 
   def self.start
+    clear_existing_data
     seed_champions
     seed_roles
     add_roles_to_champions
+  end
+
+  def self.clear_existing_data
+    Champion.destroy_all
+    Role.destroy_all
   end
 
   def self.seed_champions
