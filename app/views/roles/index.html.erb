@@ -1,0 +1,11 @@
+<div class="hero-image">
+
+  <ul class="nav flex-sm-column">
+    <% @roles.each do |role| %>
+      <li class="nav-item">
+        <%= link_to(role.title, role_champions_path(role), class: "nav-link active") %>
+      </li>
+    <% end %>
+  </ul>
+
+</div>

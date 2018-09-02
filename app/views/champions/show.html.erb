@@ -1,0 +1,24 @@
+<div class="container">
+  <div class="name-header jumbotron">
+    <h1>
+      <%= @champion.name %>
+    </h1>
+  </div>
+</div>
+<ul id='champion-attributes'>
+  <li>Damage Type:</br>
+    <%= @champion.damage %>
+  </li>
+  <li>Primary Class: </br>
+    <%= @champion.primary_class %>
+  </li>
+  <li>Secondary Class: </br>
+    <%=@champion.secondary_class %>
+  </li>
+  <li>
+    <%= @champion.rune_path %>
+  </li>
+  <li>
+    <%= @champion.skill_order %>
+  </li>
+</ul>
