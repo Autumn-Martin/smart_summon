@@ -1,42 +1,43 @@
-<div class= "new-user-container container"
+<div class= "new-user-container container">
   <h1>Please enter your info to start summoning smart.</h1></br>
-  <div id=new-user-form>
-    <%= form_for @user do |f| %>
-      <div>
-        <%= f.label :name %>
-      </div>
-      </br>
-      <div>
-        <%= f.text_field :name, autofocus: true %>
-      </div>
-      </br>
-      <div>
-        <%= f.label :email %>
-      </div>
-      </br>
-      <div>
-        <%= f.text_field :email %>
-      </div>
-      </br>
-      <div>
-        <%= f.label :password %>
-      </div>
-      </br>
-      <div>
-        <%= f.password_field :password %>
-      </div>
-      </br>
-      <div>
-        <%= f.label :password_confirmation %>
-      </div>
-      </br>
-      <div>
-        <%= f.password_field :password_confirmation %>
-      </div>
-      </br>
-      <div>
-        <%= f.submit "Get started!" %>
-      </div>
-    <% end %>
-  </div>
+  <form>
+    <div id=new-user-form>
+      <%= form_for @user do |f| %>
+        <div class="form-group">
+          <label for="exampleInputName1" style="margin-bottom:1%">
+            <%= f.label :name %>
+          </label>
+          <input type="name" class="form-control" id="exampleInputName1" aria-describedby="nameHelp" placeholder="Enter name"<%= f.text_field :name, autofocus: true %>
+        </div>
+        </br>
+        <div class="form-group">
+          <label for="exampleInputEmail1" style="margin-bottom:1%">
+            <%= f.label :email %>
+          </label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" <%= f.text_field :email %>
+          <small id="emailHelp" class="form-text text-muted">
+            We'll never share your email with anyone else.
+          </small>
+        </div>
+        </br>
+        <div class="form-group">
+          <label for="exampleInputPassword1" style="margin-bottom:1%">
+            <%= f.label :password %>
+          </label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" <%= f.password_field :password %>
+        </div>
+        </br>
+        <div class="form-group">
+          <label for="exampleInputPasswordConfirmation1" style="margin-bottom:1%">
+            <%= f.label :password_confirmation %>
+          </label>
+          <input type="password" class="form-control" id="exampleInputPasswordConfirmation1" placeholder="Password Confirmation"<%= f.password_field :password_confirmation %>
+        </div>
+        </br>
+        <div>
+          <%= f.submit "Get started!", class: "btn btn-primary btn-sm btn-outline-info" %>
+        </div>
+      <% end %>
+    </div>
+  </form>
 </div>
