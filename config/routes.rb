@@ -8,7 +8,9 @@ Rails.application.routes.draw do
 
   resources :champions, only: [:index, :show]
 
-  resources :users, only: [:new, :create]
+  resources :users, only: [:new, :create] do
+    resources :roles
+  end
 
   get '/login' => 'sessions#new'
   post '/login' => 'sessions#create'
