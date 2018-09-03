@@ -9,8 +9,8 @@ feature 'User views show page' do
       role.champions << champion_1
       role.champions << champion_2
 
-      visit roles_path
-      click_on role.title
+      visit role_champions_path(role)
+      # click_on role.title
 
       expect(current_path).to eq(role_champions_path(role))
       expect(page).to have_content(champion_1.name)
