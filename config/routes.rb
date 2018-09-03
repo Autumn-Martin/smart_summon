@@ -5,5 +5,7 @@ Rails.application.routes.draw do
     resources :champions, only: [:index, :show]
   end
   resources :champions, only: [:index, :show]
-  resources :user, only: [:new, :create]
+  # resources :users, only: [:new, :create]
+  get 'users/new' => 'users#new', as: :new_user
+  post 'users' => 'users#create'
 end
