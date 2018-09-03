@@ -1,22 +1,42 @@
-<h1>Please enter your info to start summoning smart.</h1>
-<%= form_for @user do |f| %>
-  <div>
-    <%= f.label :name %>
-    <%= f.text_field :name, autofocus: true %>
+<div class= "new-user-container container"
+  <h1>Please enter your info to start summoning smart.</h1></br>
+  <div id=new-user-form>
+    <%= form_for @user do |f| %>
+      <div>
+        <%= f.label :name %>
+      </div>
+      </br>
+      <div>
+        <%= f.text_field :name, autofocus: true %>
+      </div>
+      </br>
+      <div>
+        <%= f.label :email %>
+      </div>
+      </br>
+      <div>
+        <%= f.text_field :email %>
+      </div>
+      </br>
+      <div>
+        <%= f.label :password %>
+      </div>
+      </br>
+      <div>
+        <%= f.password_field :password %>
+      </div>
+      </br>
+      <div>
+        <%= f.label :password_confirmation %>
+      </div>
+      </br>
+      <div>
+        <%= f.password_field :password_confirmation %>
+      </div>
+      </br>
+      <div>
+        <%= f.submit "Get started!" %>
+      </div>
+    <% end %>
   </div>
-  <div>
-    <%= f.label :email %>
-    <%= f.text_field :email %>
-  </div>
-  <div>
-    <%= f.label :password %>
-    <%= f.password_field :password %>
-  </div>
-  <div>
-    <%= f.label :password_confirmation %>
-    <%= f.password_field :password_confirmation %>
-  </div>
-  <div>
-    <%= f.submit "Get started!" %>
-  </div>
-<% end %>
+</div>
