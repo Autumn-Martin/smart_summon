@@ -7,11 +7,22 @@
     <%= stylesheet_link_tag    'application', media: 'all' %>
     <%= javascript_include_tag 'application' %>
 
-    <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Monoton|Josefin+Sans" rel="stylesheet">
   </head>
 
   <body>
     <%= render "shared/navigation" %>
+
+    <% if notice %>
+      <%= notice %>
+    <% end %>
+
+    <% if alert %>
+      <%= alert %>
+    <% end %>
+
     <%= yield %>
+
+    <%= render "shared/footer" %>
   </body>
 </html>

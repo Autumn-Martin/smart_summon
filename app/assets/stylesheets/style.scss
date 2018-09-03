@@ -28,10 +28,38 @@ body {
     color: #D3FCFD;
   }
 
+  .role-header {
+    background: image-url("heimerdinger.jpg") no-repeat center top/cover;
+    text-align: center;
+    margin: 5% 0%;
+    font-size: 16vh;
+    color: #D3FCFD;
+  }
+
   #champion-attributes li {
     margin: 2% 2%;
     text-align: center;
     color: #6544F6;
+  }
+
+  #footer {
+  font-family: "Josefin Sans", sans-serif;
+  margin: 2% 2%;
+  padding: 1% 1%;
+  outline-style: dotted;
+  outline-color: grey;
+  }
+  .new-user-container {
+    color: #6544F6;
+    margin: 5% 5%;
+    text-align: center;
+
+    #new-user-form {
+      margin: 5% 5%;
+      text-align: left;
+
+    }
+
   }
 
 }
