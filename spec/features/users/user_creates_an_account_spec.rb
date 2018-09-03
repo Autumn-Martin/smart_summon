@@ -17,8 +17,11 @@ describe 'User creates an account' do
 
         click_on "Get started!"
 
+        user = User.last
+
         expect(current_path).to eq(root_path)
         expect(page).to have_content("Welcome to Summoner's Rift")
+        expect(user.name).to eq("Leela")
       end
     end
   end
