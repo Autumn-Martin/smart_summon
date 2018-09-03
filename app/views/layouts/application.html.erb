@@ -12,7 +12,17 @@
 
   <body>
     <%= render "shared/navigation" %>
+
+    <% if notice %>
+      <%= notice %>
+    <% end %>
+
+    <% if alert %>
+      <%= alert %>
+    <% end %>
+
     <%= yield %>
+
     <%= render "shared/footer" %>
   </body>
 </html>
