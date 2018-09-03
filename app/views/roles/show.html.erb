@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="role-header jumbotron">
+    <h1 style="color: white;">
+      <%= @role.title %>
+    </h1>
+  </div>
+</div>
+<div class="container">
+  <% @champions.each do |champion| %>
+    <div class="row justify-content-center" id=champion-<%="#{champion.id}"%>>
+      <div class="card text-center col-8">
+        <h5 class="card-header"><%= champion.name %></h5>
+        <div class="card-body">
+          <p class="card-text" style="margin-bottom: 2%"><%= champion.damage %></p>
+          <%= link_to "More Details", champion_path(champion), class: "btn btn-primary btn-sm btn-outline-info"%>
+        </div>
+      </div>
+    </div>
+  <% end %>
+</div>
