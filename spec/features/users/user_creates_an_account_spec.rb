@@ -10,10 +10,10 @@ describe 'User creates an account' do
 
         expect(current_path).to eq(new_user_path)
 
-        fill_in "user[name]", with: "Leela"
-        fill_in "user[email]", with: "leela@gmail.com"
-        fill_in "user[password]", with: "1234"
-        fill_in "user[password_confirmation]", with: "1234"
+        fill_in :user_name, with: "Leela"
+        fill_in :user_email, with: "leela@gmail.com"
+        fill_in :user_password, with: "1234"
+        fill_in :user_password_confirmation, with: "1234"
 
         click_on "Get started!"
 
