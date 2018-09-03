@@ -17,8 +17,8 @@ describe 'User creates an account' do
 
         click_on "Get started!"
 
-        expect(current_path).to eq(roles_path)
-        expect(page).to have_content("Welcome to Summoner's Rift #{user.name}!")
+        expect(current_path).to eq(root_path)
+        expect(page).to have_content("Welcome to Summoner's Rift")
       end
     end
   end
