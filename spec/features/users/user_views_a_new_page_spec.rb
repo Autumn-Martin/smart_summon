@@ -7,11 +7,12 @@ describe 'User views a new user form' do
       click_on "Noob"
 
       expect(current_path).to eq(new_user_path)
-      expect(page).to have_content("Please enter your info to get started.")
+      expect(page).to have_content("Please enter your info to start summoning smart.")
       expect(page).to have_content("Name:")
       expect(page).to have_content("Email:")
       expect(page).to have_content("Password:")
       expect(page).to have_content("Password Confirmation:")
+      expect(page).to have_content("Get started!")
     end
   end
 end
