@@ -4,9 +4,7 @@ class UsersController < ApplicationController
   end
 
   def create
-    require 'pry'; binding.pry
     @user = User.create(user_params)
-
     # make all emails downcase to avoid case-sensitive duplicates & login-errors
     @user.email.downcase!
 
