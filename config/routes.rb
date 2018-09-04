@@ -8,12 +8,14 @@ Rails.application.routes.draw do
 
   resources :champions, only: [:index, :show]
 
-  resources :users, only: [:new, :create] do
+  resources :users, only: [:new, :create, :show] do
     resources :roles, only: [:index, :show]
+    # resources :roles, controller: 'favorites'
     resources :champions, only: [:index, :show]
   end
 
   get '/login', to: 'sessions#new'
   post '/login', to: 'sessions#create'
   delete '/logout', to: 'sessions#destroy'
+  get '/logout', to: 'sessions#destroy'
 end

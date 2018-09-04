@@ -3,11 +3,11 @@ class SessionsController < ApplicationController
   end
 
   def create
-    user = User.find_by(email: params[:login][:email].downcase)
+    @user = User.find_by(email: params[:email].downcase)
 
-    if user && user.authenticate(params[:login][:password])
-      session[:user_id] = user.id.to_s
-      redirect_to root_path, notice: "Welcome back to Summoner's Rift, #{user.name}"
+    if @user && @user.authenticate(params[:password])
+      session[:user_id] = @user.id
+      redirect_to user_roles_path(@user), notice: "Welcome back to Summoner's Rift, #{@user.name}"
     else
       flash.now.alert = "Incorrect email or password, try again."
       render :new
