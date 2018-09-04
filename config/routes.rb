@@ -9,7 +9,8 @@ Rails.application.routes.draw do
   resources :champions, only: [:index, :show]
 
   resources :users, only: [:new, :create] do
-    resources :roles
+    resources :roles, only: [:index, :show]
+    resources :champions, only: [:index, :show]
   end
 
   get '/login', to: 'sessions#new'
