@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180903030043) do
+ActiveRecord::Schema.define(version: 20180904035552) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -24,6 +24,13 @@ ActiveRecord::Schema.define(version: 20180903030043) do
     t.string "secondary_class"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "favorite_champions", force: :cascade do |t|
+    t.bigint "user_id"
+    t.bigint "champion_id"
+    t.index ["champion_id"], name: "index_favorite_champions_on_champion_id"
+    t.index ["user_id"], name: "index_favorite_champions_on_user_id"
   end
 
   create_table "role_champions", force: :cascade do |t|
@@ -47,6 +54,8 @@ ActiveRecord::Schema.define(version: 20180903030043) do
     t.datetime "updated_at", null: false
   end
 
+  add_foreign_key "favorite_champions", "champions"
+  add_foreign_key "favorite_champions", "users"
   add_foreign_key "role_champions", "champions"
   add_foreign_key "role_champions", "roles"
 end
