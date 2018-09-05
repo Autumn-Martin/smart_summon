@@ -6,6 +6,7 @@ class ChampionsController < ApplicationController
     else
       @champions = Champion.all
     end
+    # @user = current_user
   end
 
   def show

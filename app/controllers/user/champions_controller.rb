@@ -10,6 +10,8 @@ class User::ChampionsController < ApplicationController
     else
       @champions = current_user.champions
     end
+    @user = current_user
+    
   end
 
   # def update

@@ -6,12 +6,6 @@
         <div class="card-body">
           <p class="card-text" style="margin-bottom: 2%"><%= champion.damage %></p>
           <%= link_to "More Details", champion_path(champion), class: "btn btn-primary btn-sm btn-outline-info"%>
-          <% if current_user %>
-            <%= form_for [@user, @champion] do |f| %>
-              <%= f.hidden_field :champion_id, value: champion.id %>
-              <%= f.submit "Favorite" %>
-            <% end  %>
-          <% end %>
         </div>
       </div>
     </div>
