@@ -5,4 +5,8 @@ class ApplicationController < ActionController::Base
   def current_user # get whatever value we have for the user or find user based off of the session
     @current_user ||= User.find(session[:user_id]) if session[:user_id]
   end
+
+  def current_admin?
+    current_user && current_user.admin?
+  end
 end
