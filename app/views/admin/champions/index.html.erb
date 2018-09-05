@@ -1,3 +1,4 @@
+<div><%= link_to "Create", new_admin_champion_path, class: "btn btn-primary btn-sm btn-outline-info" %></div>
 <div class="container">
   <% @champions.each do |champion| %>
     <div class="row justify-content-center" id=champion-<%="#{champion.id}"%>>
@@ -6,7 +7,6 @@
         <div class="card-body">
           <p class="card-text" style="margin-bottom: 2%"><%= champion.damage %></p>
           <%= link_to "More Details", champion_path(champion), class: "btn btn-primary btn-sm btn-outline-info"%>
-          <%= link_to "Create", new_admin_champion_path(champion), class: "btn btn-primary btn-sm btn-outline-info" %>
           <%= link_to "Update", admin_champion_path(champion), class: "btn btn-primary btn-sm btn-outline-info" %>
         </div>
       </div>
