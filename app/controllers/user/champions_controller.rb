@@ -12,4 +12,9 @@ class User::ChampionsController < ApplicationController
     end
   end
 
+  # def update
+  #   @user = current_user
+  #   user.champions << champion
+  # end
+
 end

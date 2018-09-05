@@ -11,7 +11,7 @@ feature 'User can add champion to favorites' do
           champion = create(:champion, name: "Poppy", damage: "tank")
 
           visit champions_path
-          save_and_open_page
+        
           within("#champion-#{champion.id}") do
             click_on "Favorite"
           end

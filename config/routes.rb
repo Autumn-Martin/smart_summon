@@ -13,7 +13,7 @@ Rails.application.routes.draw do
     resources :champions
   end
 
-  resources :champions, only: [:index, :show]
+  resources :champions, only: [:index, :show, :update]
 
   resources :users, only: [:new, :create, :show] do
     resources :roles, only: [:index, :show]

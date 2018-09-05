@@ -11,4 +11,9 @@ class ChampionsController < ApplicationController
   def show
     @champion = Champion.find(params[:id])
   end
+
+  def update
+    @user = current_user
+    @user.champions << champion
+  end
 end
