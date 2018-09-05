@@ -7,7 +7,7 @@ class SessionsController < ApplicationController
 
     if @user && @user.authenticate(params[:password])
       session[:user_id] = @user.id
-      redirect_to user_roles_path(@user), notice: "Welcome back to Summoner's Rift, #{@user.name}"
+      redirect_to roles_path, notice: "Welcome back to Summoner's Rift, #{@user.name}"
     else
       flash.now.alert = "Incorrect email or password, try again."
       render :new

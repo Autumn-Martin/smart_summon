@@ -19,7 +19,7 @@ feature 'User can create champions' do
 
           champion = Champion.last
 
-          expect(current_path).to eq(admin_champion_path(champion))
+          expect(current_path).to eq(champion_path(champion))
           expect(page).to have_content(champion.name)
         end
       end

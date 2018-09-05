@@ -1,4 +1,4 @@
-<%= form_for @champion do |f| %>
+<%= form_for @champion, url: admin_champions_path do |f| %>
   <%= f.label :name %>
   <%= f.text_field :name %>
   <%= f.label :damage %>

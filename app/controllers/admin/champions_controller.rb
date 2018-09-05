@@ -10,7 +10,7 @@ class Admin::ChampionsController < Admin::BaseController
   def create
     @champion = Champion.create(champion_params)
 
-    redirect_to admin_champion(@champion)
+    redirect_to champion_path(@champion)
   end
 
   private

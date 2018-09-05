@@ -6,16 +6,23 @@ Rails.application.routes.draw do
     resources :champions, only: [:index, :show]
   end
 
+  namespace :user do
+    resources :roles do
+      resources :champions, only: [:index, :show]
+    end
+    resources :champions
+  end
+
   resources :champions, only: [:index, :show]
 
   resources :users, only: [:new, :create, :show] do
     resources :roles, only: [:index, :show]
     # resources :roles, controller: 'favorites'
-    resources :champions, only: [:index, :show]
+    # resources :champions, only: [:index, :show]
   end
 
   namespace :admin do
-    resources :champions, only: [:index, :show, :new, :create, :update]
+    resources :champions
   end
 
   get '/login', to: 'sessions#new'

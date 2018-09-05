@@ -11,7 +11,7 @@ class UsersController < ApplicationController
     if @user.save
       flash[:notice] = "Welcome to Summoner's Rift #{@user.name}"
       session[:user_id] = @user.id
-      redirect_to user_roles_path(@user)
+      redirect_to champions_path
     else
       flash.now.alert = "Please try again."
       render :new

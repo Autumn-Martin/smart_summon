@@ -19,7 +19,7 @@ describe 'User creates an account' do
 
         user = User.last
 
-        expect(current_path).to eq(user_roles_path(user))
+        expect(current_path).to eq(champions_path)
         expect(page).to have_content("Welcome to Summoner's Rift")
         expect(user.name).to eq("Leela")
       end

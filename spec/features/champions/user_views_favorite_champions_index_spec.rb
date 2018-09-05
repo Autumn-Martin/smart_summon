@@ -19,7 +19,7 @@ feature 'User views favorite champions' do
         allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(user)
 
         visit user_champions_path(user)
-    
+
         expect(page).to have_content(champion.name)
         expect(page).to_not have_content("Tahm Kench")
       end
