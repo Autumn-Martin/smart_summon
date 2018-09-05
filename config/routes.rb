@@ -14,6 +14,10 @@ Rails.application.routes.draw do
     resources :champions, only: [:index, :show]
   end
 
+  namespace :admin do
+    resources :champions, only: :index
+  end
+
   get '/login', to: 'sessions#new'
   post '/login', to: 'sessions#create'
   delete '/logout', to: 'sessions#destroy'
