@@ -15,7 +15,7 @@ Rails.application.routes.draw do
   end
 
   namespace :admin do
-    resources :champions, only: :index
+    resources :champions, only: [:index, :show, :new, :create, :update]
   end
 
   get '/login', to: 'sessions#new'
