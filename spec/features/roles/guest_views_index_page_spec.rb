@@ -1,7 +1,7 @@
 require 'rails_helper'
 
-feature 'User views index page' do
-  context'user visits /roles' do
+feature 'Guest views index page' do
+  context'guest visits /roles' do
     scenario 'displays all roles' do
       role_1 = create(:role, title: "top")
       role_2 = create(:role, title: "jungle")

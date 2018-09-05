@@ -6,9 +6,15 @@ class ChampionsController < ApplicationController
     else
       @champions = Champion.all
     end
+    # @user = current_user
   end
 
   def show
     @champion = Champion.find(params[:id])
+  end
+
+  def update
+    @user = current_user
+    @user.champions << champion
   end
 end

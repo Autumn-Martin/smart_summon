@@ -1,7 +1,7 @@
 require 'rails_helper'
 
-feature 'User views champion show page' do
-  context 'user links from role_champions_path' do
+feature 'Guest views champion show page' do
+  context 'guest links from role_champions_path' do
     scenario 'displays info for a single champion' do
       role = create(:role)
       champion = create(:champion)

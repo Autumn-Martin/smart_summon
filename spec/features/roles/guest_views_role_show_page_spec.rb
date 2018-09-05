@@ -1,7 +1,7 @@
 require 'rails_helper'
 
-feature 'User views show page' do
-  context 'user links from roles' do
+feature 'Guest views show page' do
+  context 'guest links from roles' do
     scenario 'displays all champions for that role' do
       role = create(:role)
       champion_1 = create(:champion, name: "Poppy", damage: "tank")
@@ -9,10 +9,12 @@ feature 'User views show page' do
       role.champions << champion_1
       role.champions << champion_2
 
-      visit role_champions_path(role)
-      # click_on role.title
+      visit roles_path
+      click_on role.title
 
-      expect(current_path).to eq(role_champions_path(role))
+
+      expect(current_path).to eq(role_path(role))
+      expect(page).to have_content("#{role.title}")
       expect(page).to have_content(champion_1.name)
       expect(page).to have_content(champion_1.damage)
       expect(page).to have_content(champion_2.name)
