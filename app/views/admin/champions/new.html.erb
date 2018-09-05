@@ -1,0 +1,11 @@
+<%= form_for @champion do |f| %>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+  <%= f.label :damage %>
+  <%= f.text_field :damage %>
+  <%= f.label :primary_class %>
+  <%= f.text_field :primary_class %>
+  <%= f.label :secondary_class  %>
+  <%= f.text_field :secondary_class %>
+  <%= f.submit %>
+<% end %>

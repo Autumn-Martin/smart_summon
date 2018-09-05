@@ -29,7 +29,7 @@ feature 'User views all champions with create, update, and destroy buttons' do
 
         visit admin_champions_path
 
-        expect(page).to have_link("Create")
+        expect(page).to have_link("Create New Champion")
         expect(page).to have_link("Update")
       end
     end

@@ -13,11 +13,12 @@ feature 'User views new champions page' do
 
         click_on "Create New Champion"
 
+        expect(current_path).to eq(new_admin_champion_path)
         expect(page).to have_content("Name")
         expect(page).to have_content("Damage")
-        expect(page).to have_content("Primary Class")
-        expect(page).to have_content("Secondary Class")
-        expect(page).to have_selector("input[type=submit][value='Submit']")
+        expect(page).to have_content("Primary class")
+        expect(page).to have_content("Secondary class")
+        expect(page).to have_selector("input[type=submit][value='Create Champion']")
       end
     end
   end

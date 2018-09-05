@@ -1,11 +1,22 @@
-class Admin::ChampionsController < ApplicationController
-  before_action :require_admin
+class Admin::ChampionsController < Admin::BaseController
   def index
     @champions = Champion.all
   end
 
+  def new
+    @champion = Champion.new
+  end
+
+  def create
+    @champion = Champion.create(champion_params)
+
+    redirect_to admin_champion(@champion)
+  end
+
   private
-    def require_admin
-      render file: "public/404" unless current_admin?
+
+    def champion_params
+      params.require(:champion).permit(:name, :damage, :primary_class, :secondary_class)
     end
+
 end
