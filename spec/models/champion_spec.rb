@@ -7,5 +7,6 @@ RSpec.describe Champion, type: :model do
   describe 'relationships' do
     it {should have_many(:role_champions)}
     it {should have_many(:roles)}
+    it {should have_many(:skills)}
   end
 end
