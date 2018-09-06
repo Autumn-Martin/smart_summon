@@ -28,3 +28,8 @@
     </ul>
   </div>
 </nav>
+<% unless current_user %>
+  <div class="ad" style="background-color: #2D040F">
+    <%= link_to "Rocket grab a personalized experience.", new_user_path, class: "nav-link"%>
+  </div>
+<% end %>
