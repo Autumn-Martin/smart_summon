@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180904202556) do
+ActiveRecord::Schema.define(version: 20180906110302) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -22,6 +22,16 @@ ActiveRecord::Schema.define(version: 20180904202556) do
     t.string "skill_order"
     t.string "primary_class"
     t.string "secondary_class"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "create_abilities", force: :cascade do |t|
+    t.string "passive"
+    t.string "ability_1"
+    t.string "ability_2"
+    t.string "ability_3"
+    t.string "ability_4"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -46,6 +56,18 @@ ActiveRecord::Schema.define(version: 20180904202556) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "skills", force: :cascade do |t|
+    t.string "passive"
+    t.string "q"
+    t.string "w"
+    t.string "e"
+    t.string "r"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.bigint "champion_id"
+    t.index ["champion_id"], name: "index_skills_on_champion_id"
+  end
+
   create_table "users", force: :cascade do |t|
     t.string "name"
     t.string "email"
@@ -59,4 +81,5 @@ ActiveRecord::Schema.define(version: 20180904202556) do
   add_foreign_key "favorite_champions", "users"
   add_foreign_key "role_champions", "champions"
   add_foreign_key "role_champions", "roles"
+  add_foreign_key "skills", "champions"
 end

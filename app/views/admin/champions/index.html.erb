@@ -1,7 +1,7 @@
 <div><%= link_to "Create New Champion", new_admin_champion_path, class: "btn btn-primary btn-sm btn-outline-info" %></div>
 <div class="container">
   <% @champions.each do |champion| %>
-    <div class="row justify-content-center" id=champion-<%="#{champion.id}"%>>
+    <div class="row justify-content-center" style="color: #141329" id=champion-<%="#{champion.id}"%>>
       <div class="card text-center col-8">
         <h5 class="card-header"><%= champion.name %></h5>
         <div class="card-body">

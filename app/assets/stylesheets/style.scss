@@ -1,6 +1,7 @@
 body {
 
   font-family: "Monoton";
+  color: white;
   margin: 0;
   background-color: #141329;
 
@@ -10,14 +11,20 @@ body {
   .navbar-toggler {
     border-color: white;
   }
-//   .custom-toggler.navbar-toggler {
-//     border-color: rgb(255,102,203);
-// }
+
   .custom-toggler .navbar-toggler-icon {
-    // background-color: 'rgba(255,186,73, 0.7)';
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,186,73, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
   }
 
+  .ad {
+    color: white;
+    text-align: center;
+    background-color: #141329;
+    margin: 2% 2%;
+    padding: 1% 1%;
+    outline-style: dotted;
+    outline-color: #8E1E36;
+  }
 
   .hero-image {
     background: image-url("heimerdinger.jpg") no-repeat center top/cover;
@@ -63,18 +70,19 @@ body {
   padding: 1% 1%;
   outline-style: dotted;
   outline-color: grey;
-  // position: fixed;
+  position: fixed;
   bottom:0;
   }
-  .new-user-container {
+
+  .user-form-container {
     color: #6544F6;
     margin: 5% 5%;
+    padding-bottom: 10%;
     text-align: center;
 
-    #new-user-form {
+    .user-form {
       margin: 5% 5%;
       text-align: left;
-
     }
 
   }

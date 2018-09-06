@@ -1,5 +1,4 @@
-<nav class="navbar navbar-expand-lg" style="background-color: #8E1E36; color: white">
-  <!-- <a class="navbar-brand" href="#">SmartSummon</a> -->
+<nav class="navbar navbar-expand-lg sticky-top" style="background-color: #8E1E36; color: white">
   <h1 class="navbar-brand">SmartSummon</h1>
   <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -13,12 +12,23 @@
       <li class="nav-item active">
         <%= link_to "Champions", champions_path, class: "nav-link"%>
       </li>
-      <li class="nav-item active">
-        <%= link_to "Noob", new_user_path, class: "nav-link"%>
-      </li>
-      <li class="nav-item active">
-        <%= link_to "Challenger", login_path, class: "nav-link"%>
-      </li>
+      <% unless current_user %>
+        <li class="nav-item active">
+          <%= link_to "Noob", new_user_path, class: "nav-link"%>
+        </li>
+        <li class="nav-item active">
+          <%= link_to "Challenger", login_path, class: "nav-link"%>
+        </li>
+      <% else %>
+        <li class="nav-item active">
+          <%= link_to "Log out", logout_path, class: "nav-link" %>
+        </li>
+      <% end %>
     </ul>
   </div>
 </nav>
+<% unless current_user %>
+  <div class="ad" style="background-color: #2D040F">
+    <%= link_to "Rocket grab a personalized experience.", new_user_path, class: "nav-link"%>
+  </div>
+<% end %>
