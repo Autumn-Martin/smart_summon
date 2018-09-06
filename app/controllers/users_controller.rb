@@ -5,7 +5,6 @@ class UsersController < ApplicationController
 
   def create
     @user = User.create(user_params)
-    # make all emails downcase to avoid case-sensitive duplicates & login-errors
     @user.email.downcase!
 
     if @user.save
