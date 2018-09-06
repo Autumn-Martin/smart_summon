@@ -15,20 +15,21 @@
   <li>Secondary Class: </br>
     <%=@champion.secondary_class %>
   </li>
-
+  <% @champion.skills.each do |skill| %>
   <li>Passive: </br>
-    <%= @skill.passive %>
+    <%= skill.passive %>
   </li>
   <li>Q: </br>
-    <%= @skill.q %>
+    <%= skill.q %>
   </li>
   <li>W: </br>
-    <%= @skill.w %>
+    <%= skill.w %>
   </li>
   <li>E: </br>
-    <%= @skill.e %>
+    <%= skill.e %>
   </li>
   <li>R: </br>
-    <%= @skill.r %>
+    <%= skill.r %>
   </li>
+  <% end %>
 </ul>
