@@ -19,7 +19,7 @@ feature 'User can login' do
               click_on "Log In"
 
               expect(page).to have_content("Welcome back to Summoner's Rift, #{user.name}")
-              # expect(page).to have_content("Log out")
+              expect(page).to have_content("Log out")
             end
           end
         end

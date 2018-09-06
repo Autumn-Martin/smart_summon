@@ -13,12 +13,18 @@
       <li class="nav-item active">
         <%= link_to "Champions", champions_path, class: "nav-link"%>
       </li>
-      <li class="nav-item active">
-        <%= link_to "Noob", new_user_path, class: "nav-link"%>
-      </li>
-      <li class="nav-item active">
-        <%= link_to "Challenger", login_path, class: "nav-link"%>
-      </li>
+      <% unless current_user %>
+        <li class="nav-item active">
+          <%= link_to "Noob", new_user_path, class: "nav-link"%>
+        </li>
+        <li class="nav-item active">
+          <%= link_to "Challenger", login_path, class: "nav-link"%>
+        </li>
+      <% else %>
+        <li class="nav-item active">
+          <%= link_to "Log out", logout_path, class: "nav-link" %>
+        </li>
+      <% end %>
     </ul>
   </div>
 </nav>
