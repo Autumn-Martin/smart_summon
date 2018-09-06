@@ -10,10 +10,13 @@ class ChampionsController < ApplicationController
 
   def show
     @champion = Champion.find(params[:id])
+    @skill = Skill.new
+    @skill.champion_id = @champion.id
   end
 
   def update
     @user = current_user
     @user.champions << champion
   end
+
 end
