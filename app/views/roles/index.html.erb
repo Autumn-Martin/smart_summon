@@ -3,11 +3,7 @@
   <ul class="nav flex-sm-column">
     <% @roles.each do |role| %>
       <li class="nav-item" style="padding: 2% 2%; font-size: 25px; margin-top: 2%">
-        <% if current_user %>
-          <%= link_to(role.title, user_role_champions_path(role), class: "nav-link active") %>
-        <% else %>
           <%= link_to(role.title, role_path(role), class: "nav-link active") %>
-        <% end %>
       </li>
     <% end %>
   </ul>
