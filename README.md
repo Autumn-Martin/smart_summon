@@ -1,6 +1,5 @@
 # SmartSummon
 
-![Coverage Status](,/coverage/coverage.svg)
 [![Waffle.io - Columns and their card count](https://badge.waffle.io/Autumn-Martin/smart_summon.svg?columns=all)](https://waffle.io/Autumn-Martin/smart_summon)
 
 ### About
