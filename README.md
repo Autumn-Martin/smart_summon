@@ -5,7 +5,7 @@
 ### About
 
 ##### Intro
-This app will serve League of Legends players. These users quickly decide which champions to play and what runes they will have based on a number of conditions, but ultimately based on the player's role and what the player enjoys playing. This app will help players quickly see info based on their role and favorite champions to pick runes, item-builds, etc and also see personal notes. 
+This app will serve League of Legends players. These users quickly decide which champions to play and what runes they will have based on a number of conditions, but ultimately based on the player's role and what the player enjoys playing. This app will help players quickly see info based on their role and favorite champions to pick runes, item-builds, etc and also see personal notes. This app is still a work-in-progress. However, it has been deployed on Heroku and can be visited [here](https://smartsummon.herokuapp.com/).
 
 ![image of role index page](./lib/assets/smart_summon_role_index.png)
 
@@ -83,5 +83,9 @@ In order to run tests, perform the following:
 ### References
 
 Database:
-[Google Drive CSV Spreadsheet](https://docs.google.com/spreadsheets/d/1B1okEW0fUA5g14dhsm5iCaUiDanxEIOD5RMF5rORixI/edit#gid=0)
-[CSV Author](https://www.reddit.com/user/henrebotha)
+* Champions CSV Spreadsheet:
+[Google Drive Champions CSV](https://docs.google.com/spreadsheets/d/1B1okEW0fUA5g14dhsm5iCaUiDanxEIOD5RMF5rORixI/edit#gid=0)
+[Author](https://www.reddit.com/user/henrebotha)
+* Abilities CSV Spreadsheet:
+[Google Drive Abilities CSV](https://docs.google.com/spreadsheets/d/12V75wr7I3U5E0oIkc4v32fnO9rHtBYCVvRBMZS4fN5g/edit?pli=1#gid=0)
+[Author](https://www.reddit.com/user/JeremySenpai)
