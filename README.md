@@ -5,13 +5,17 @@
 ### About
 
 ##### Intro
-This app will serve League of Legends players. These users quickly decide which champions to play and what runes they will have based on a number of conditions, but ultimately based on the player's role and what the player enjoys playing. This app will help players quickly see info based on their role and favorite champions to pick runes, item-builds, ect and also see personal notes. 
+This app will serve League of Legends players. These users quickly decide which champions to play and what runes they will have based on a number of conditions, but ultimately based on the player's role and what the player enjoys playing. This app will help players quickly see info based on their role and favorite champions to pick runes, item-builds, etc and also see personal notes. 
+
+![image of role index page](./lib/assets/smart_summon_role_index.png)
 
 ##### Background
 The app would be meant for a single user.  A user would initially create an account, login, and select their favorite champions. Then, when the game starts, they could select their role from the main index page, which would take them to a page displaying their favorite champs for that role. And then, they could click on a champion to view a show page with that champs info. This page would also include a field for adding notes on a champion, as well as a list of notes from most recent to least recent (which a user could view while the game is loading). If a user hasn't played for a bit, is new, or plays many different champs, all that can be hard to keep track of. This would especially make the game more accessible to new players.
 
 authorization: 
 The user will be authorized to add/edit/delete notes on their favorite champions. Only the admin can add/delete champions in the database. The user will pick their favorite champions from a dropdown. 
+
+![image of form for creating an account](./lib/assets/create_account_form.png)
 
 user story: 
 As a user, when I visit '/roles',  and I click on a role, I am taken to a show page for that role that includes a list of champions for that role. 
@@ -35,7 +39,7 @@ bundle install
 rake db:create db:migrate db:seed
 ```
 
-In order to spin-up the server, run: `rails s`d
+In order to spin-up the server, run: `rails s`
 
 ### Learning Goals
 User Experience
