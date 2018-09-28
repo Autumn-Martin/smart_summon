@@ -32,7 +32,7 @@ one champion to many notes
 This project uses the Ruby on Rails framework version 5.1.6, which can be installed [here](http://installrails.com/).
 [Bundler](http://bundler.io/) is used to install the gems needed for this application.
 
-In order to run this appication in the development environment, perform the following in the CLI:
+In order to run this application in the development environment, perform the following in the CLI:
 
 ```
 bundle install
@@ -68,7 +68,7 @@ Testing
 
 The following schema was used to create a [PostgreSQL](https://www.postgresql.org/) database:
 
-![schema](./lib/assets/smart_summon_schema.png)
+![schema](./lib/assets/smart_summon_schema_2.png)
 
 ### Testing
 
