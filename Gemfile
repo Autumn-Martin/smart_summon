@@ -32,6 +32,10 @@ gem 'jquery-rails'
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
 
+# React support
+gem 'react_on_rails', '12.0.0'
+gem 'webpacker', '4.2.2'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
