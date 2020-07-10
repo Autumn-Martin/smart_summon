@@ -26,16 +26,6 @@ ActiveRecord::Schema.define(version: 20180906110302) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "create_abilities", force: :cascade do |t|
-    t.string "passive"
-    t.string "ability_1"
-    t.string "ability_2"
-    t.string "ability_3"
-    t.string "ability_4"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
   create_table "favorite_champions", force: :cascade do |t|
     t.bigint "user_id"
     t.bigint "champion_id"
